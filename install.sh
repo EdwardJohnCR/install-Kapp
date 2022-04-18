@@ -304,8 +304,8 @@ sudo sh -c " echo 'EMQX_DEFAULT_USER_PASSWORD=${EMQX_DEFAULT_USER_PASSWORD}' >> 
 sudo sh -c " echo 'EMQX_DEFAULT_APPLICATION_SECRET=${EMQX_DEFAULT_APPLICATION_SECRET}' >> $filename"
 
 
-sudo git clone https://github.com/Kikilma/k1app.git
-sudo mv k1app app
+sudo git clone https://github.com/Kikilma/k1-app.git
+sudo mv k1-app app
 
 cd app
 
